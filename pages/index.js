@@ -20,7 +20,6 @@ import {
   IoLogoTwitter,
   IoLogoInstagram,
   IoLogoGithub,
-  IoMailOpen
 } from 'react-icons/io5'
 import Image from 'next/image'
 
