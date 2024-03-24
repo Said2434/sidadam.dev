@@ -82,7 +82,7 @@ const Navbar = props => {
           <LinkItem href="/web_projects" path={path}>
             Web Projects
           </LinkItem>
-          <LinkItem href="/works" path={path}>
+          <LinkItem href="https://portfolio-uses-w5gw.vercel.app/" path={path}>
             Uses
           </LinkItem>
         </Stack>
