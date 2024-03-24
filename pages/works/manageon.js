@@ -4,7 +4,6 @@ import {
   Link,
   List,
   ListItem,
-  AspectRatio
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
@@ -18,7 +17,7 @@ const Work = () => (
         Manageon <Badge>Official Homepage of Manageon</Badge>
       </Title>
       <P>
-      Under the dynamic environment of Manageon, I recently led the migration of our company's homepage from PHP to JavaScript, leveraging the power of Next.js. With a keen eye for detail, I introduced new features, engaging animations, and stylish design elements, resulting in an enhanced user experience
+      Under the dynamic environment of Manageon, I recently led the migration of our company&apos;s homepage from PHP to JavaScript, leveraging the power of Next.js. With a keen eye for detail, I introduced new features, engaging animations, and stylish design elements, resulting in an enhanced user experience
       </P>
       <List ml={4} my={4}>
         <ListItem>
