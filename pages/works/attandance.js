@@ -17,13 +17,7 @@ const Work = () => (
       AttiinDance <Badge>Automated Face Recognition Attendance</Badge>
       </Title>
       <P>
-        EVFLEX represents a cutting-edge electric vehicle charging platform that
-        simplifies the entire charging process. With its intuitive application,
-        users can effortlessly initiate and terminate charging sessions, while
-        staying updated on their charging progress through real-time
-        notifications. Offering a range of convenient options for authorization
-        and payment, including credit card integration, KakaoPay, and cash
-        top-ups, EVFLEX ensures a hassle-free and seamless charging experience.
+       coming soon
       </P>
       <List ml={4} my={4}>
         <ListItem>
