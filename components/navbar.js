@@ -102,10 +102,10 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/">
                   About
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/works">
+                <MenuItem as={MenuLink} href="/ai_projects">
                   AI Projects
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/works">
+                <MenuItem as={MenuLink} href="/web_projects">
                   Web Projects
                 </MenuItem>
                 <MenuItem as={MenuLink} href="https://portfolio-uses-w5gw.vercel.app/">
