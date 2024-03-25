@@ -26,7 +26,7 @@ const Works = () => (
             Official Homepage of Manageon
           </WorkGridItem>
         </Section>
-        <Section>
+        <Section  delay={0.1}>
           <WorkGridItem id="ficl" title="FICL" thumbnail={thumbFICL}>
             AI-based smart water growth management smart aquaculture solution
           </WorkGridItem>
