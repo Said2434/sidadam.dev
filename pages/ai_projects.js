@@ -11,12 +11,15 @@ const Works = () => (
       <Heading as="h3" fontSize={20} mb={4}>
         AI Projects
       </Heading>
-{/* <p>Comming Soon</p> */}
+      {/* <p>Comming Soon</p> */}
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="attandance" title="Attiindance" thumbnail={thumbAttendance}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+          <WorkGridItem
+            id="attandance"
+            title="Attiindance"
+            thumbnail={thumbAttendance}
+          >
+            Automated Face Recognition Attendance
           </WorkGridItem>
         </Section>
         {/* <Section>
