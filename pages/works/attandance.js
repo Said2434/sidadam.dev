@@ -86,7 +86,7 @@ const Work = () => (
         <ListItem>
           <Meta>Face Recognition:</Meta>
           <P>
-            Utilizes Dlib's algorithms for accurate facial feature encoding and
+            Utilizes Dlib&apos;s algorithms for accurate facial feature encoding and
             identification against a database of known faces.
           </P>
         </ListItem>
@@ -136,7 +136,7 @@ const Work = () => (
         <ListItem>
           <Meta>Database Management: </Meta>
           <P>
-            Utilizes Django's ORM capabilities for seamless database
+            Utilizes Django&apos;s ORM capabilities for seamless database
             interactions, ensuring that attendance records, subject details, and
             user information are accurately stored and easily retrievable.
           </P>
@@ -176,7 +176,7 @@ const Work = () => (
         <ListItem>
           <Meta>Intuitive User Interface (UI): </Meta>{' '}
           <P>
-            Leveraging React Native's component-based architecture, the UI is
+            Leveraging React Native&apos;s component-based architecture, the UI is
             designed to be user-friendly, ensuring that information is presented
             clearly and interactions are straightforward.
           </P>
