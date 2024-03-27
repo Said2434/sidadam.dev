@@ -34,7 +34,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m a ML Software based in Korea!
+        Hello, I&apos;m a ML Software Developerbased in Korea!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -42,7 +42,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Kori Jamal
           </Heading>
-          <p>ML Software Engineer Developer</p>
+          <p>ML Software Developer </p>
         </Box>
         <Box
           flexShrink={0}
