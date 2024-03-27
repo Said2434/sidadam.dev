@@ -15,7 +15,7 @@ import NextLink from 'next/link'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 
 const Work = () => (
-  <Layout title="Evflex">
+  <Layout title="AttiinDance">
     <Container>
       <TitleAI>
         AttiinDance <Badge>Automated Face Recognition Attendance</Badge>
@@ -33,15 +33,11 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>React Native, Django, mySQL</span>
-        </ListItem>
-        <ListItem>
-          <Meta>Link</Meta>
-          <Link href="https://www.evflex.co.kr/">website</Link>
+          <span>React Native, Django, OpenCV (cv2), Dlib </span>
         </ListItem>
         <ListItem>
           <Meta>Download</Meta>
-          <span>It is not on Production</span>
+          <span>It is not uploaded on AppStore or PlayStore</span>
         </ListItem>
       </List>
       <P>The system is built on a three-layered architecture:</P>

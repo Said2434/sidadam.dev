@@ -4,6 +4,7 @@ import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 
 import thumbAttendance from '../public/images/works/attandance.webp'
+import thumbImageClassification from '../public/images/works/imageClassification1.webp'
 
 const Works = () => (
   <Layout title="Works">
@@ -20,6 +21,15 @@ const Works = () => (
             thumbnail={thumbAttendance}
           >
             Automated Face Recognition Attendance
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="imageClassification"
+            title="Image classification web app"
+            thumbnail={thumbImageClassification}
+          >
+            An image classification web app with streamlit and gradio
           </WorkGridItem>
         </Section>
         {/* <Section>

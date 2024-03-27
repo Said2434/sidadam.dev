@@ -19,7 +19,7 @@ export const Title = ({ children }) => (
 
 export const TitleAI = ({ children }) => (
   <Box>
-    <Link as={NextLink} href="/web_projects">
+    <Link as={NextLink} href="/ai_projects">
       AI
     </Link>
     <span>
