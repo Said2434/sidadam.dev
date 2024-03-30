@@ -34,7 +34,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m a ML Software Developerbased in Korea!
+        Hello, I&apos;m a AI and Web developer based in Korea!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -42,7 +42,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Kori Jamal
           </Heading>
-          <p>ML Software Developer </p>
+          <p>AI and Web developer Developer </p>
         </Box>
         <Box
           flexShrink={0}
@@ -75,7 +75,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Hi 👋 I am an AI and Full-stack developer based in South Korea with a
+          Hi 👋 I am an AI and Web developer based in South Korea with a
           passion for AI, machine learning, computer vision, healthcare, and
           software development! I like to work on all aspects of a project, from
           planning, designing, and collaborating to developing complete
