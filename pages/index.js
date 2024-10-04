@@ -34,7 +34,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m a AI and Web developer based in Korea!
+        Hello, I&apos;m a Data Scientist and Software Developer based in Chicago!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -42,7 +42,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Kori Jamal
           </Heading>
-          <p>AI and Web developer Developer </p>
+          <p>Data Scientist and Software Developer </p>
         </Box>
         <Box
           flexShrink={0}
@@ -75,17 +75,13 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Hi 👋 I am an AI and Web developer based in South Korea with a
-          passion for AI, machine learning, computer vision, healthcare, and
-          software development! I like to work on all aspects of a project, from
-          planning, designing, and collaborating to developing complete
-          pipelines and applications.
+          Hi 👋 I’m Sirojiddin Kamoljonov, but you can call me Kori—because let’s face it, it’s way easier to pronounce! I’m a Data Scientist + Software Developer who loves diving into data like it’s the latest Netflix series.
         </Paragraph>
         <Paragraph>
-          My main aim is to contribute to our society by building creative,
-          efficient, and optimized products using cutting-edge AI and deep
-          learning techniques. When not online, I love hanging out with my
-          camera and take pictures of marvelous Seoul.
+        I studied at Gachon University in Korea and am now in Chicago, tackling Data Science at IIT. With a background in computer engineering, I specialize in making sense of complex data, building intelligent solutions, and occasionally convincing my code to cooperate. Proficient in Python, TensorFlow, and PyTorch, I’m here to solve real-world problems and have some fun along the way!
+        </Paragraph>
+        I’m actively looking to expand my career in AI development and data science, and I’m excited to solve real-world problems through technology.
+        <Paragraph>
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -101,43 +97,46 @@ const Home = () => (
       </Section>
 
       <Section delay={0.2}>
-        <Heading as="h3" variant="section-title">
-          Bio
-        </Heading>
-        <BioSection>
-          <BioYear>2001</BioYear>
-          Born in Andijan, Uzbekistan.
-        </BioSection>
-        <BioSection>
-          <BioYear>2019</BioYear>
-          Got accepted to Computer Science major in Gachon university
-        </BioSection>
-        <BioSection>
-          <BioYear>2022</BioYear>
-          Did internship at 4Lab Inc
-        </BioSection>
-        <BioSection>
-          <BioYear>2023</BioYear>
-          Did internship at Manageon Inc
-        </BioSection>
+  <Heading as="h3" variant="section-title">
+    Bio
+  </Heading>
+  <BioSection>
+    <BioYear>2001</BioYear>
+    Born in Andijan, Uzbekistan.
+  </BioSection>
+  <BioSection>
+    <BioYear>2019</BioYear>
+    Got accepted to Computer Science major in Gachon University.
+  </BioSection>
+  <BioSection>
+    <BioYear>2022</BioYear>
+    Did an internship at 4Lab Inc.
+  </BioSection>
+  <BioSection>
+    <BioYear>2023</BioYear>
+    Did an internship at Manageon Inc.
+  </BioSection>
+  <BioSection>
+    <BioYear>2023</BioYear>
+    Completed the Bachelor&apos;s Program in Computer Engineering from Gachon University (가천대학교).
+  </BioSection>
+  <BioSection>
+    <BioYear>2023</BioYear>
+    Joined LG as a Software Developer.
+  </BioSection>
+  <BioSection>
+    <BioYear>2024</BioYear>
+    Got accepted to IIT Chicago for a Data Science program.
+  </BioSection>
+</Section>
 
-        <BioSection>
-          <BioYear>2023</BioYear>
-          Completed the Bachelor&apos;s Program in Computer Engineering from Gachon
-          University (가천대학교)
-        </BioSection>
-        <BioSection>
-          <BioYear>2023</BioYear>
-          Working as a Software Developer at Digital Nutrition Inc., South Korea
-        </BioSection>
-      </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music, Photography, Leica, Machine Learning and of course
+          Art, Music, Photography, Gaming, Machine Learning and of course
           wrestling!
         </Paragraph>
       </Section>
