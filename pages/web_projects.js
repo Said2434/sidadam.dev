@@ -38,7 +38,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="soundpill" thumbnail={thumbSoundpill} title="SoundPill">
+          <WorkGridItem id="soundpill" thumbnail={thumbSoundpill} title="Soundpill">
             The medical evidence-based sound therapy, music-streaming app
           </WorkGridItem>
         </Section>
