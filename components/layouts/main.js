@@ -15,16 +15,16 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Kori's homepage" />
-        <meta name="author" content="Kori Jamal" />
-        <meta name="author" content="Kori Jamal" />
+        <meta name="description" content="Adam's homepage" />
+        <meta name="author" content="Sid Adam" />
+        <meta name="author" content="Sid Adam" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <meta property="og:site_name" content="Kori Jamal" />
-        <meta name="og:title" content="Kori Jamal" />
+        <meta property="og:site_name" content="Sid Adam" />
+        <meta name="og:title" content="Sid Adam" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.craftz.dog/card.png" />
-        <title>Kori Jamal - Homepage</title>
+        <title>Sid Adam - Homepage</title>
       </Head>
 
       <NavBar path={router.asPath} />
