@@ -79,12 +79,7 @@ const Navbar = props => {
           <LinkItem href="/ai_projects" path={path}>
             AI Projects
           </LinkItem>
-          <LinkItem href="/web_projects" path={path}>
-            Web Projects
-          </LinkItem>
-          <LinkItem href="https://portfolio-uses-w5gw.vercel.app/" path={path}>
-            Uses
-          </LinkItem>
+         
         </Stack>
 
         <Box flex={1} align="right">
@@ -105,12 +100,7 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/ai_projects">
                   AI Projects
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/web_projects">
-                  Web Projects
-                </MenuItem>
-                <MenuItem as={MenuLink} href="https://portfolio-uses-w5gw.vercel.app/">
-                  Uses
-                </MenuItem>
+              
               </MenuList>
             </Menu>
           </Box>

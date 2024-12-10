@@ -4,24 +4,57 @@ import {
   Container,
   Heading,
   Box,
-
+  Grid,
+  GridItem,
   Button,
   List,
   ListItem,
-  useColorModeValue
-} from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
-import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
-import Layout from '../components/layouts/article'
-import Section from '../components/section'
-
+  useColorModeValue,
+  Flex,
+  Icon,
+  Text,
+  SimpleGrid
+} from '@chakra-ui/react';
+import { ChevronRightIcon } from '@chakra-ui/icons';
+import { FaPython, FaLinux, FaWindows, FaApple, FaGithub, FaCode } from 'react-icons/fa';
+import { IoLogoTensorflow } from 'react-icons/io5';
+import Paragraph from '../components/paragraph';
+import Layout from '../components/layouts/article';
+import Section from '../components/section';
+// import Image from 'next/image';
 import {
   IoLogoTwitter,
   IoLogoInstagram,
   IoLogoGithub,
+  IoLogoLinkedin,
 } from 'react-icons/io5'
 import Image from 'next/image'
+
+const BioSection = ({ children }) => (
+  <Box
+    mb={4}
+    p={4}
+    border="1px"
+    borderColor="gray.200"
+    borderRadius="md"
+    bg={useColorModeValue('gray.100', 'gray.700')}
+    shadow="md"
+  >
+    {children}
+  </Box>
+);
+
+// BioYear Component Definition
+const BioYear = ({ children }) => (
+  <Text
+    fontWeight="bold"
+    fontSize="lg"
+    color={useColorModeValue('teal.500', 'teal.300')}
+    mb={2}
+  >
+    {children}
+  </Text>
+);
 
 const Home = () => (
   <Layout>
@@ -34,13 +67,13 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m a Data Scientist and Software Developer based in Chicago!
-      </Box>
+I don't just follow the rules, I rewrite them. Data Science and Software Development, with a Stark-level twist 
+     </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Kori Jamal
+            Saidov Adam
           </Heading>
           <p>Data Scientist and Software Developer </p>
         </Box>
@@ -61,10 +94,10 @@ const Home = () => (
             overflow="hidden"
           >
             <Image
-              src="/images/kori.jpg"
+              src="/images/Adam.jpg"
               alt="Profile image"
-              width="100"
-              height="100"
+              width="200"
+              height="200"
             />
           </Box>
         </Box>
@@ -72,112 +105,156 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          About Me
         </Heading>
         <Paragraph>
-          Hi 👋 I’m Sirojiddin Kamoljonov, but you can call me Kori—because let’s face it, it’s way easier to pronounce! I’m a Data Scientist + Software Developer who loves diving into data like it’s the latest Netflix series.
-        </Paragraph>
-        <Paragraph>
-        I studied at Gachon University in Korea and am now in Chicago, tackling Data Science at IIT. With a background in computer engineering, I specialize in making sense of complex data, building intelligent solutions, and occasionally convincing my code to cooperate. Proficient in Python, TensorFlow, and PyTorch, I’m here to solve real-world problems and have some fun along the way!
-        </Paragraph>
-        I’m actively looking to expand my career in AI development and data science, and I’m excited to solve real-world problems through technology.
-        <Paragraph>
+        I am a junior student at <strong>Sejong University</strong> and an AI enthusiast specializing in computer vision and deep learning. I have experience in image classification, semantic segmentation, and object detection using PyTorch. My research focuses on applying machine learning to environmental science, particularly using satellite data for forest monitoring and ecosystem analysis. I have worked with advanced models like <strong>YOLO</strong>, <strong>UNet</strong>, and <strong>ResNet</strong> to develop real-world computer vision solutions. I thrive in collaborative environments, am always eager to learn, and believe AI can help solve global challenges.
+      
         </Paragraph>
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="/web_projects"
+            href="/ai_projects"
             scroll={false}
             rightIcon={<ChevronRightIcon />}
             colorScheme="teal"
           >
-            My portfolio
+            Check My Projects
           </Button>
         </Box>
       </Section>
 
+     
+      {/* Work Experience Section */}
       <Section delay={0.2}>
+        <Heading as="h3" variant="section-title">
+          Work Experience
+        </Heading>
+
+        <BioSection>
+          <BioYear> 2023.12 - 2024.02 Remote Internship at{' '} <Link href="https://www.technaxis.com/" target="_blank" color="blue.500"> Technaxis</Link>. </BioYear>
+            <Paragraph>
+            • Contributed to developing an object detection system for quality control and inventory management, leveraging PyTorch, YOLO, and Faster R-CNN.<br />
+            • Preprocessed diverse image datasets using OpenCV, enhancing model robustness through normalization and data augmentation techniques.<br />
+            • Optimized models for edge devices via pruning, quantization, and CUDA acceleration, ensuring real-time performance.<br />
+            • Conducted thorough evaluations using mAP and IoU metrics to validate accuracy and robustness under diverse conditions. <br />
+             </Paragraph>
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2024.09 Seoul Tech Impact Hackathon -{' '} <Link href="https://github.com/thompsgj/dropheart-backend" target="_blank" color="blue.500"> Dropheart </Link>-<Link href="https://d1zpw5mq5bnzyn.cloudfront.net/images/9310e365515c451ea24d3fa2bbc53427.jpeg" target="_blank" color="blue.500" rel="noopener noreferrer">Certificate.</Link> </BioYear>
+          <Paragraph>
+          • Backend Developer for Dropheart, a web app combining geocaching with CRUD functionality for donations.<br />
+            • Built features like profile page, reporting, and collaboration with NGOs and charities to enhance user experience.<br />
+            • Integrated data visualization to optimize donation supply and demand distribution.        <br />
+                 </Paragraph>
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2024 - Present Member of Free Code Camp Seoul Coding Meetup.</BioYear>
+          <Paragraph>
+          • Contributed to developing an object detection system for quality control and inventory management, leveraging PyTorch, YOLO, and Faster R-CNN.<br />
+            • Preprocessed diverse image datasets using OpenCV, enhancing model robustness through normalization and data augmentation techniques.<br />
+            • Optimized models for edge devices via pruning, quantization, and CUDA acceleration, ensuring real-time performance.<br />
+            • Conducted thorough evaluations using mAP and IoU metrics to validate accuracy and robustness under diverse conditions. <br />
+                </Paragraph>
+        </BioSection>
+    
+        <Section delay={0.3}>
   <Heading as="h3" variant="section-title">
-    Bio
+    My Skills
   </Heading>
-  <BioSection>
-    <BioYear>2001</BioYear>
-    Born in Andijan, Uzbekistan.
-  </BioSection>
-  <BioSection>
-    <BioYear>2019</BioYear>
-    Got accepted to Computer Science major in Gachon University.
-  </BioSection>
-  <BioSection>
-    <BioYear>2022</BioYear>
-    Did an internship at 4Lab Inc.
-  </BioSection>
-  <BioSection>
-    <BioYear>2023</BioYear>
-    Did an internship at Manageon Inc.
-  </BioSection>
-  <BioSection>
-    <BioYear>2023</BioYear>
-    Completed the Bachelor&apos;s Program in Computer Engineering from Gachon University (가천대학교).
-  </BioSection>
-  <BioSection>
-    <BioYear>2023</BioYear>
-    Joined LG as a Software Developer.
-  </BioSection>
-  <BioSection>
-    <BioYear>2024</BioYear>
-    Got accepted to IIT Chicago for a Data Science program.
-  </BioSection>
+  <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={6} mt={6}>
+    {/* Languages */}
+    <Box p={4} shadow="md" borderWidth="1px" borderRadius="lg" bg={useColorModeValue('gray.100', 'gray.700')}>
+      <Heading size="sm" mb={2}>Languages</Heading>
+      <List spacing={2}>
+        <ListItem>Russian - Native</ListItem>
+        <ListItem>Uzbek - Native</ListItem>
+        <ListItem>English - Advanced</ListItem>
+        <ListItem>Korean - Beginner</ListItem>
+      </List>
+    </Box>
+
+    {/* Programming Languages */}
+    <Box p={4} shadow="md" borderWidth="1px" borderRadius="lg" bg={useColorModeValue('gray.100', 'gray.700')}>
+      <Heading size="sm" mb={2}>Programming Languages</Heading>
+      <List spacing={2}>
+        <ListItem>Python</ListItem>
+        <ListItem>C</ListItem>
+      </List>
+    </Box>
+
+    {/* Frameworks */}
+    <Box p={4} shadow="md" borderWidth="1px" borderRadius="lg" bg={useColorModeValue('gray.100', 'gray.700')}>
+      <Heading size="sm" mb={2}>Frameworks</Heading>
+      <List spacing={2}>
+        <ListItem>TensorFlow</ListItem>
+        <ListItem>PyTorch</ListItem>
+      </List>
+    </Box>
+
+    {/* Operating Systems */}
+    <Box p={4} shadow="md" borderWidth="1px" borderRadius="lg" bg={useColorModeValue('gray.100', 'gray.700')}>
+      <Heading size="sm" mb={2}>Operating Systems</Heading>
+      <List spacing={2}>
+        <ListItem>Linux</ListItem>
+        <ListItem>macOS</ListItem>
+        <ListItem>Windows</ListItem>
+      </List>
+    </Box>
+
+    {/* IDEs */}
+    <Box p={4} shadow="md" borderWidth="1px" borderRadius="lg" bg={useColorModeValue('gray.100', 'gray.700')}>
+      <Heading size="sm" mb={2}>IDEs</Heading>
+      <List spacing={2}>
+        <ListItem>Google Colab</ListItem>
+        <ListItem>Jupyter Notebook</ListItem>
+        <ListItem>VS Code</ListItem>
+        <ListItem>PyCharm</ListItem>
+      </List>
+    </Box>
+  </SimpleGrid>
 </Section>
 
-
-      <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          I ♥
-        </Heading>
-        <Paragraph>
-          Art, Music, Photography, Gaming, Machine Learning and of course
-          wrestling!
-        </Paragraph>
       </Section>
-
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           On the web
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/korijamal" target="_blank">
+            <Link href="https://github.com/Said2434" target="_blank">
               <Button
                 variant="ghost"
                 aaa
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @korijamal
+                @sidadam
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/SirojiddinKamo6" target="_blank">
+            <Link href="https://x.com/Said116829" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @korijamal
+                @sidadam
               </Button>
             </Link>
           </ListItem>
 
           <ListItem>
-            <Link href="https://www.instagram.com/korijamal" target="_blank">
+            <Link href="https://www.linkedin.com/in/saidazam-saidov-a1a950279/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoInstagram />}
+                leftIcon={<IoLogoLinkedin />}
               >
-                @korijamal
+                @sidadam
               </Button>
             </Link>
           </ListItem>

@@ -5,6 +5,9 @@ import Layout from '../components/layouts/article'
 
 import thumbAttendance from '../public/images/works/attandance.webp'
 import thumbImageClassification from '../public/images/works/imageClassification1.webp'
+import thumbSignLanguageClassification from '../public/images/works/sign_language_classification_thumb.webp';
+import thumbfireDetector from '../public/images/works/rife.webp';
+import thumbObjectDetection from '../public/images/works/object.webp';
 
 const Works = () => (
   <Layout title="Works">
@@ -17,7 +20,7 @@ const Works = () => (
         <Section>
           <WorkGridItem
             id="attandance"
-            title="Attiindance"
+            title="Attandance"
             thumbnail={thumbAttendance}
           >
             Automated Face Recognition Attendance
@@ -32,32 +35,32 @@ const Works = () => (
             An image classification web app with streamlit and gradio
           </WorkGridItem>
         </Section>
-        {/* <Section>
-          <WorkGridItem
-            id="walknote"
-            title="walknote"
-            thumbnail={thumbWalknote}
+        <Section>
+          <WorkGridItem id="Fire-Detector"
+            title="Fire-Detector"
+            thumbnail={thumbfireDetector}
           >
-            Music recommendation app for iOS
-          </WorkGridItem>
+        A project using Semantic Segmentation and PyTorch to detect fire in images      
+        </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
-            thumbnail={thumbFourPainters}
+            id="Object-Detection"
+            title="Object-Detection"
+            thumbnail={thumbObjectDetection}
           >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
+            Real-time object detection using the YOLOv8 framework and PyTorch
           </WorkGridItem>
         </Section>
+ 
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
+          <WorkGridItem id="Sign-Language-Classification" 
+          thumbnail={thumbSignLanguageClassification}
+           title="Sign-Language-Classification">
+            Real-Time Classification.
           </WorkGridItem>
-        </Section> */}
+        </Section>
       </SimpleGrid>
     </Container>
   </Layout>
