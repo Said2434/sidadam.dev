@@ -20,7 +20,6 @@ import Section from '../components/section';
 // import Image from 'next/image';
 import {
   IoLogoTwitter,
-  IoLogoInstagram,
   IoLogoGithub,
   IoLogoLinkedin,
 } from 'react-icons/io5'
@@ -63,7 +62,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-I don't just follow the rules, I rewrite them. Data Science and Software Development, with a Stark-level twist 
+I don&apos;t just follow the rules, I rewrite them. Data Science and Software Development, with a Stark-level twist 
      </Box>
 
       <Box display={{ md: 'flex' }}>
