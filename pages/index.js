@@ -4,20 +4,16 @@ import {
   Container,
   Heading,
   Box,
-  Grid,
-  GridItem,
+
   Button,
   List,
   ListItem,
   useColorModeValue,
-  Flex,
-  Icon,
+
   Text,
   SimpleGrid
 } from '@chakra-ui/react';
 import { ChevronRightIcon } from '@chakra-ui/icons';
-import { FaPython, FaLinux, FaWindows, FaApple, FaGithub, FaCode } from 'react-icons/fa';
-import { IoLogoTensorflow } from 'react-icons/io5';
 import Paragraph from '../components/paragraph';
 import Layout from '../components/layouts/article';
 import Section from '../components/section';

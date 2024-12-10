@@ -145,7 +145,7 @@ import {
 </Box>
 
 <P>
-  The Model Training Layer is responsible for training the system's machine 
+  The Model Training Layer is responsible for training the systems machine 
   learning model using the preprocessed data. This layer includes:
 </P>
 <List my={4}>
