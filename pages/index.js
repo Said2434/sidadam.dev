@@ -148,10 +148,11 @@ I don&apos;t just follow the rules, I rewrite them. Data Science and Software De
         <BioSection>
           <BioYear>2024 - Present Member of Free Code Camp Seoul Coding Meetup.</BioYear>
           <Paragraph>
-          • Contributed to developing an object detection system for quality control and inventory management, leveraging PyTorch, YOLO, and Faster R-CNN.<br />
-            • Preprocessed diverse image datasets using OpenCV, enhancing model robustness through normalization and data augmentation techniques.<br />
-            • Optimized models for edge devices via pruning, quantization, and CUDA acceleration, ensuring real-time performance.<br />
-            • Conducted thorough evaluations using mAP and IoU metrics to validate accuracy and robustness under diverse conditions. <br />
+          • Actively participate in collaborative coding sessions, technical discussions, and hands-on workshops. <br />
+• Engage with a diverse community of developers, enhancing programming skills and sharing knowledge on various topics. <br />
+• Contribute to open-source projects and initiatives driven by the Free Code Camp community. <br />
+
+
                 </Paragraph>
         </BioSection>
     
