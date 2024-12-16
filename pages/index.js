@@ -65,7 +65,7 @@ const Home = () => (
 I don&apos;t just follow the rules, I rewrite them. Data Science and Software Development, with a Stark-level twist 
      </Box>
 
-     <Box display={{ md: 'flex' }}>
+<Box display={{ md: 'flex' }}>
   <Box flexGrow={1}>
     <Heading as="h2" variant="page-title">
       Saidov Adam
@@ -91,12 +91,14 @@ I don&apos;t just follow the rules, I rewrite them. Data Science and Software De
       <Image
         src="/images/adam1.png"
         alt="Profile image"
-        width="200"
-        height="200"
+        width="100%"  // Ensures the image fills the container
+        height="100%"  // Ensures the image fills the container
+        objectFit="cover"  // Makes sure the image covers the circle without distortion
       />
     </Box>
   </Box>
 </Box>
+
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
