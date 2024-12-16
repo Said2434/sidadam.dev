@@ -65,38 +65,38 @@ const Home = () => (
 I don&apos;t just follow the rules, I rewrite them. Data Science and Software Development, with a Stark-level twist 
      </Box>
 
-      <Box display={{ md: 'flex' }}>
-        <Box flexGrow={1}>
-          <Heading as="h2" variant="page-title">
-            Saidov Adam
-          </Heading>
-          <p>Data Scientist and Software Developer </p>
-        </Box>
-        <Box
-          flexShrink={0}
-          mt={{ base: 4, md: 0 }}
-          ml={{ md: 6 }}
-          textAlign="center"
-        >
-          <Box
-            borderColor="whiteAlpha.800"
-            borderWidth={2}
-            borderStyle="solid"
-            w="100px"
-            h="100px"
-            display="inline-block"
-            borderRadius="full"
-            overflow="hidden"
-          >
-            <Image
-              src="/images/adam1.png"
-              alt="Profile image"
-              width="200"
-              height="200"
-            />
-          </Box>
-        </Box>
-      </Box>
+     <Box display={{ md: 'flex' }}>
+  <Box flexGrow={1}>
+    <Heading as="h2" variant="page-title">
+      Saidov Adam
+    </Heading>
+    <p>Data Scientist and Software Developer</p>
+  </Box>
+  <Box
+    flexShrink={0}
+    mt={{ base: 4, md: 0 }}
+    ml={{ md: 6 }}
+    textAlign="center"
+  >
+    <Box
+      borderColor="whiteAlpha.800"
+      borderWidth={2}
+      borderStyle="solid"
+      w="200px"  // Adjusted width to 200px
+      h="200px"  // Adjusted height to 200px
+      display="inline-block"
+      borderRadius="full"
+      overflow="hidden"
+    >
+      <Image
+        src="/images/adam1.png"
+        alt="Profile image"
+        width="200"
+        height="200"
+      />
+    </Box>
+  </Box>
+</Box>
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
