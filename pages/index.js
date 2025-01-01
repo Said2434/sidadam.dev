@@ -180,6 +180,7 @@ I don&apos;t just follow the rules, I rewrite them. Data Science and Software De
       <List spacing={2}>
         <ListItem>Python</ListItem>
         <ListItem>C</ListItem>
+          <ListItem>Java</ListItem>
       </List>
     </Box>
 
@@ -189,9 +190,18 @@ I don&apos;t just follow the rules, I rewrite them. Data Science and Software De
       <List spacing={2}>
         <ListItem>TensorFlow</ListItem>
         <ListItem>PyTorch</ListItem>
+               <ListItem>Spring Boot</ListItem>
       </List>
     </Box>
-
+{/* APIa */}
+    <Box p={4} shadow="md" borderWidth="1px" borderRadius="lg" bg={useColorModeValue('gray.100', 'gray.700')}>
+      <Heading size="sm" mb={2}>APIs</Heading>
+      <List spacing={2}>
+        <ListItem>FastAPI</ListItem>
+        <ListItem>RESTAPI</ListItem>
+             
+      </List>
+    </Box>
     {/* Operating Systems */}
     <Box p={4} shadow="md" borderWidth="1px" borderRadius="lg" bg={useColorModeValue('gray.100', 'gray.700')}>
       <Heading size="sm" mb={2}>Operating Systems</Heading>
