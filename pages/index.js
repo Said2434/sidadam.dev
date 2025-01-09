@@ -89,7 +89,7 @@ I don&apos;t just follow the rules, I rewrite them. Data Science and Software De
       overflow="hidden"
     >
       <Image
-        src="/images/adam1.jpg"
+        src="/images/Adam.jpg"
         alt="Profile image"
         width="100%"  // Ensures the image fills the container
         height="100%"  // Ensures the image fills the container
