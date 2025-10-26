@@ -20,7 +20,7 @@ const Works = () => (
         <Section>
           <WorkGridItem
             id="attandance"
-            title="Attandance"
+            title="Attendance"
             thumbnail={thumbAttendance}
           >
             Automated Face Recognition Attendance
