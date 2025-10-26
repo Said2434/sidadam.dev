@@ -62,8 +62,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-I don&apos;t just follow the rules, I rewrite them. Data Science and Software Development, with a Stark-level twist 
-     </Box>
+Driving **AI Innovation** and **Startup Ecosystem Growth**. A technologist focused on Deep Learning and high-impact product execution.     </Box>
 
 <Box display={{ md: 'flex' }}>
   <Box flexGrow={1}>
@@ -105,8 +104,7 @@ I don&apos;t just follow the rules, I rewrite them. Data Science and Software De
           About Me
         </Heading>
         <Paragraph>
-        I am a junior student at <strong>Sejong University</strong> and an AI enthusiast specializing in computer vision and deep learning. I have experience in image classification, semantic segmentation, and object detection using PyTorch. My research focuses on applying machine learning to environmental science, particularly using satellite data for forest monitoring and ecosystem analysis. I have worked with advanced models like <strong>YOLO</strong>, <strong>UNet</strong>, and <strong>ResNet</strong> to develop real-world computer vision solutions. I thrive in collaborative environments, am always eager to learn, and believe AI can help solve global challenges.
-      
+I am **Saidov Adam**, a Vision-driven Technologist and Entrepreneur focused on leveraging **Deep Learning** and **AI** to solve real-world challenges. My technical specialization is in **Computer Vision**, where I utilize frameworks like PyTorch and advanced models (YOLO, UNet, ResNet) for high-impact product development. Beyond the code, I founded and lead **CodeSphere**, a growing tech community in Seoul, organizing 12+ technical meetups and facilitating mentorship for early-stage founders. I have a proven track record leading multidisciplinary teams in demanding hackathon environments, overseeing product planning, technical workflows, and successful project delivery. I am dedicated to fostering innovation and driving collaboration across the global tech landscape.      
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -146,7 +144,39 @@ I don&apos;t just follow the rules, I rewrite them. Data Science and Software De
             • Integrated data visualization to optimize donation supply and demand distribution.        <br />
                  </Paragraph>
         </BioSection>
-
+         <BioSection>
+          <BioYear>2024.10 - 2025.06 Undergraduate Researcher — Computer Vision Lab, Sejong University  </BioYear>
+          <Paragraph>
+          • Learned and applied core tools including Python, PyTorch, and OpenCV for vision-based research. <br />
+          •Collected and labeled datasets for model training and evaluation. <br />
+          •Assisted in running experiments, debugging, and testing deep learning pipelines. <br />
+          •Read and summarized research papers to support project understanding. <br />
+          •Created small visualization and automation scripts for analyzing results. <br />
+          •Participated in early-stage projects on image classification (e.g., medical imagery) and object detection/segmentation (e.g., vehicle and human detection).       <br />
+                 </Paragraph>
+        </BioSection>
+         <BioSection>
+          <BioYear>2024.10 - 2025.06 Undergraduate Researcher — Computer Vision Lab, Sejong University  </BioYear>
+          <Paragraph>
+          • Learned and applied core tools including Python, PyTorch, and OpenCV for vision-based research. <br />
+          •Collected and labeled datasets for model training and evaluation. <br />
+          •Assisted in running experiments, debugging, and testing deep learning pipelines. <br />
+          •Read and summarized research papers to support project understanding. <br />
+          •Created small visualization and automation scripts for analyzing results. <br />
+          •Participated in early-stage projects on image classification (e.g., medical imagery) and object detection/segmentation (e.g., vehicle and human detection).       <br />
+                 </Paragraph>
+        </BioSection>
+        <BioSection>
+          <BioYear>2025.06 – 2025.08 Computer Vision Intern — Far Island Company, Gangnam  </BioYear>
+          <Paragraph>
+           • Supported development of computer vision models for internal AI-driven applications. <br />
+           •Preprocessed and annotated datasets, improving training efficiency and data quality. <br />
+           •Utilized PyTorch and OpenCV for model prototyping and experimentation. <br />
+           •Collaborated with senior engineers to debug and optimize algorithms. <br />
+           •Contributed to model visualization and documentation for project reports. <br />
+           •Gained practical experience in a startup-oriented AI environment in Gangnam.   <br />
+                 </Paragraph>
+        </BioSection>
         <BioSection>
           <BioYear>2024 - Present Member of Free Code Camp Seoul Coding Meetup.</BioYear>
           <Paragraph>
@@ -170,7 +200,6 @@ I don&apos;t just follow the rules, I rewrite them. Data Science and Software De
         <ListItem>Russian - Native</ListItem>
         <ListItem>Uzbek - Native</ListItem>
         <ListItem>English - Advanced</ListItem>
-        <ListItem>Korean - Beginner</ListItem>
       </List>
     </Box>
 
