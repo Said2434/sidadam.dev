@@ -50,8 +50,7 @@ const Works = () => (
             title="Object-Detection"
             thumbnail={thumbObjectDetection}
           >
-            Real-time object detection using the YOLOv8 framework and PyTorch
-          </WorkGridItem>
+Real-time sports analytics system using YOLOv8 for detecting players, referees, and goalkeepers in live match footage.          </WorkGridItem>
         </Section>
  
         <Section delay={0.1}>
