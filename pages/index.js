@@ -144,17 +144,7 @@ I am **Saidov Adam**, a Vision-driven Technologist and Entrepreneur focused on l
             • Integrated data visualization to optimize donation supply and demand distribution.        <br />
                  </Paragraph>
         </BioSection>
-         <BioSection>
-          <BioYear>2024.10 - 2025.06 Undergraduate Researcher — Computer Vision Lab, Sejong University  </BioYear>
-          <Paragraph>
-          • Learned and applied core tools including Python, PyTorch, and OpenCV for vision-based research. <br />
-          •Collected and labeled datasets for model training and evaluation. <br />
-          •Assisted in running experiments, debugging, and testing deep learning pipelines. <br />
-          •Read and summarized research papers to support project understanding. <br />
-          •Created small visualization and automation scripts for analyzing results. <br />
-          •Participated in early-stage projects on image classification (e.g., medical imagery) and object detection/segmentation (e.g., vehicle and human detection).       <br />
-                 </Paragraph>
-        </BioSection>
+        
          <BioSection>
           <BioYear>2024.10 - 2025.06 Undergraduate Researcher — Computer Vision Lab, Sejong University  </BioYear>
           <Paragraph>
