@@ -157,7 +157,7 @@ I am **Saidov Adam**, a Vision-driven Technologist and Entrepreneur focused on l
                  </Paragraph>
         </BioSection>
         <BioSection>
-          <BioYear>2025.06 – 2025.08 Computer Vision Intern — Far Island Company, Gangnam  </BioYear>
+          <BioYear>2025.06 – 2025.08 Computer Vision Developer — Far Island Company, Gangnam  </BioYear>
           <Paragraph>
            • Supported development of computer vision models for internal AI-driven applications. <br />
            •Preprocessed and annotated datasets, improving training efficiency and data quality. <br />
