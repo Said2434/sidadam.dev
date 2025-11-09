@@ -69,7 +69,7 @@ Driving **AI Innovation** and **Startup Ecosystem Growth**. A technologist focus
     <Heading as="h2" variant="page-title">
       Saidov Adam
     </Heading>
-    <p>Data Scientist and Software Developer</p>
+    <p>AI Engineer</p>
   </Box>
   <Box
     flexShrink={0}
