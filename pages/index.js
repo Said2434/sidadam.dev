@@ -188,7 +188,7 @@ I am **Saidov Adam**, a Vision-driven Technologist and Entrepreneur focused on l
       <Heading size="sm" mb={2}>Programming Languages</Heading>
       <List spacing={2}>
         <ListItem>Python</ListItem>
-        <ListItem>C</ListItem>
+        <ListItem>C/C++</ListItem>
           <ListItem>Java</ListItem>
       </List>
     </Box>
