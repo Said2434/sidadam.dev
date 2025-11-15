@@ -126,47 +126,37 @@ I am **Saidov Adam**, a Vision-driven Technologist and Entrepreneur focused on l
           Work Experience
         </Heading>
 
-        <BioSection>
-          <BioYear> 2023.12 - 2024.02 Remote Internship at{' '} <Link href="https://www.technaxis.com/" target="_blank" color="blue.500"> Technaxis</Link>. </BioYear>
-            <Paragraph>
-            • Contributed to developing an object detection system for quality control and inventory management, leveraging PyTorch, YOLO, and Faster R-CNN.<br />
-            • Preprocessed diverse image datasets using OpenCV, enhancing model robustness through normalization and data augmentation techniques.<br />
-            • Optimized models for edge devices via pruning, quantization, and CUDA acceleration, ensuring real-time performance.<br />
-            • Conducted thorough evaluations using mAP and IoU metrics to validate accuracy and robustness under diverse conditions. <br />
-             </Paragraph>
-        </BioSection>
+       
 
-        <BioSection>
-          <BioYear>2024.09 Seoul Tech Impact Hackathon -{' '} <Link href="https://github.com/thompsgj/dropheart-backend" target="_blank" color="blue.500"> Dropheart </Link>-<Link href="https://d1zpw5mq5bnzyn.cloudfront.net/images/9310e365515c451ea24d3fa2bbc53427.jpeg" target="_blank" color="blue.500" rel="noopener noreferrer">Certificate.</Link> </BioYear>
-          <Paragraph>
-          • Backend Developer for Dropheart, a web app combining geocaching with CRUD functionality for donations.<br />
-            • Built features like profile page, reporting, and collaboration with NGOs and charities to enhance user experience.<br />
-            • Integrated data visualization to optimize donation supply and demand distribution.        <br />
-                 </Paragraph>
-        </BioSection>
-        
-         <BioSection>
-          <BioYear>2024.10 - 2025.06 Undergraduate Researcher — Computer Vision Lab, Sejong University  </BioYear>
-          <Paragraph>
-          • Learned and applied core tools including Python, PyTorch, and OpenCV for vision-based research. <br />
-          •Collected and labeled datasets for model training and evaluation. <br />
-          •Assisted in running experiments, debugging, and testing deep learning pipelines. <br />
-          •Read and summarized research papers to support project understanding. <br />
-          •Created small visualization and automation scripts for analyzing results. <br />
-          •Participated in early-stage projects on image classification (e.g., medical imagery) and object detection/segmentation (e.g., vehicle and human detection).       <br />
-                 </Paragraph>
-        </BioSection>
-        <BioSection>
-          <BioYear>2025.06 – 2025.08 Computer Vision Developer — Far Island Company, Gangnam  </BioYear>
-          <Paragraph>
-           • Supported development of computer vision models for internal AI-driven applications. <br />
-           •Preprocessed and annotated datasets, improving training efficiency and data quality. <br />
-           •Utilized PyTorch and OpenCV for model prototyping and experimentation. <br />
-           •Collaborated with senior engineers to debug and optimize algorithms. <br />
-           •Contributed to model visualization and documentation for project reports. <br />
-           •Gained practical experience in a startup-oriented AI environment in Gangnam.   <br />
-                 </Paragraph>
-        </BioSection>
+   <BioSection>
+  <BioYear>2025.04 - 2025.08 AI Engineer — Far Island Company, Seoul, Korea</BioYear>
+  <Paragraph>
+    • Built and optimized computer vision models for classification, detection, segmentation, and tracking using PyTorch, OpenCV, CNN/RNN, and U-Net. <br />
+    • Converted models to ONNX and TensorRT, applying CUDA optimization and FP16/INT8 quantization for faster GPU inference. <br />
+    • Managed dataset preparation, including annotation, augmentation, and cleaning, and tracked experiments using MLflow. <br />
+    • Packaged and deployed real-time inference pipelines with Docker and integrated LLM tools for internal automation. <br />
+  </Paragraph>
+</BioSection>
+
+      <BioSection>
+  <BioYear>2023.12 - 2025.03 Software Engineer Researcher — Robotics Lab, Sejong University, Seoul</BioYear>
+  <Paragraph>
+    • Supported experiments with data preparation, model testing, and implementation of research ideas. <br />
+    • Reviewed academic papers and summarized key findings for lab discussions. <br />
+    • Worked on ML/CV projects including image classification and feature extraction using Python and PyTorch. <br />
+    • Assisted ongoing research through dataset preparation, preprocessing, and model evaluation. <br />
+  </Paragraph>
+</BioSection>
+<BioSection>
+  <BioYear>2025.07.01 - 2025.07.05 Automation Engineer (n8n Workflows) — Us:Code Hackathon, Daegu, Korea</BioYear>
+  <Paragraph>
+    • Led a multidisciplinary team to build U-Insight, an AI-powered civic reporting platform with real-time analysis and automated processing. <br />
+    • Oversaw product planning and backend development, integrating FastAPI, database logic, and n8n automation workflows. <br />
+    • Coordinated all tasks—including backend, UI/UX flow, and presentation delivery—within a strict 5-day deadline and presented the final product to judges. <br />
+  </Paragraph>
+</BioSection>
+
+
         <BioSection>
           <BioYear>2024 - Present Member of Free Code Camp Seoul Coding Meetup.</BioYear>
           <Paragraph>
